@@ -368,6 +368,6 @@ neofetch
 
 #Path
 
-export PATH =$HOME/.oh-my-zsh/custom/plugins/dotbare/dotbare
-
+export DOTBARE_DIR="$HOME/.cfg"
+export DOTBARE_TREE="$HOME"
 
