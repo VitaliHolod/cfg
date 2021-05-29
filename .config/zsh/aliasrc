@@ -1,0 +1,22 @@
+#!/bin/zsh
+
+alias c='clear'
+
+alias gs='git status'
+alias gcm='git commit -m'
+
+alias docker-stop-all='docker stop $(docker ps -a -q)'
+
+alias kb='cd ~/DATA/backup/knowledge-base'
+
+alias kb='cd ~/DATA/backup/knowledge-base'
+
+alias mp3-dl='youtube-dl --ignore-config --extract-audio \
+    --audio-format "mp3" --audio-quality 0 --embed-thumbnail \
+    --add-metadata --metadata-from-title "%(artist)s - %(title)s" \
+    --output "$HOME/Downloads/%(title)s.%(ext)s"'
+
+alias config=/usr/bin/git --git-dir=$HOME/.cfg --work-tree=$HOME
+
+
+alias skb='setxkbmap -layout 'us,ru' -option 'grp:alt_shift_toggle''
